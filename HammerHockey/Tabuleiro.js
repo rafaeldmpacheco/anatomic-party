@@ -22,7 +22,6 @@ function Tabuleiro(jogo) {
 		[0, 0, 0, 5, 0, 0, 10, 0, 0, 21, 0, 0, 26, 0, 0, 0, 0, 0, 0],
 		[0, 0, 0, 6, 7, 8, 9, 0, 0, 22, 23, 24, 25, 0, 0, 0, 0, 0, 0],
 	];
-	debugger
 
 	this.atualizar = function () {
 		for (var i = 0; i < this.matriz.length; i++) {
