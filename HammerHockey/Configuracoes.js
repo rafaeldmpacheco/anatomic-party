@@ -1,5 +1,5 @@
 function Configuracoes() {
-	this.TAMANHO_CELULA = 74;
+	this.TAMANHO_CELULA = 87;
 	this.TAMANHO_JOGADOR = (this.TAMANHO_CELULA / 4) - 3;
 
 	this.ATIVAR_EVENTOS_MOUSE = true;

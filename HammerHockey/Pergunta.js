@@ -438,12 +438,14 @@ function Pergunta(texto, respostas, jogo) {
 		if (!this.terminou) {
 			for (var i = 0; i < this.areas.length; i++) {
 				jogadorQueAcertou = this.areas[i].verificarClique(eventoClique, jogo);
-				var alguemNaoRespondeu = this.areas.find(object => object.selecionouResposta == false);
-				if (jogadorQueAcertou && !alguemNaoRespondeu) {
+				if (jogadorQueAcertou) {
 					this.jogadorQueAcertou = jogadorQueAcertou;
-					this.tempoFinal = new Date().getTime();
-					this.terminou = true;
-					socket.moveuJogador(this.jogadorQueAcertou.posicao, 1);
+                    var alguemNaoRespondeu = this.areas.find(object => object.selecionouResposta == false);
+                    if(!alguemNaoRespondeu) {
+                        this.tempoFinal = new Date().getTime();
+                        this.terminou = true;
+                        socket.moveuJogador(this.jogadorQueAcertou.posicao, 1);
+                    }
 				}
 				else {
 					this.verificarTodasAreasRespondidas();
