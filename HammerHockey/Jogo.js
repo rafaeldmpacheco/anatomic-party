@@ -104,9 +104,6 @@ function Jogo(contexto) {
 					self.evento.verificarFinal(e.changedTouches[i]);
 		}, false);
 
-		document.getElementById("btnPergunta").onclick = function() { self.irPara(TipoEvento.PERGUNTA) };
-		document.getElementById("btnMinigame").onclick = function() { self.irPara(TipoEvento.MINI_GAME) };
-
 		this.jogadores[0].entrarTurno();
 
 		this.step();
