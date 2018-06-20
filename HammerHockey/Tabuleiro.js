@@ -210,7 +210,7 @@ function Tabuleiro(jogo) {
 		});
 
 		this.perguntas.push({
-			'pergunta': new Pergunta("A Digestão dos alimentos se inicia na:", [
+			'pergunta': new Pergunta("A Digestão dos alimentos se inicia:", [
 				new Resposta("nas glândulas salivares.", false),
 				new Resposta("na boca.", true),
 				new Resposta("no estômago.", false)
@@ -360,7 +360,39 @@ function Tabuleiro(jogo) {
 				new Resposta("faringe", false)
 			], this.jogo), 'usada': false
 		});
-	}
+
+        this.perguntas.push({
+            'pergunta': new Pergunta("Qual das atividades a seguir é prejudicial principalmente ao sistema respiratório:", [
+                new Resposta("uso de cigarro", true),
+                new Resposta("uso de bebidas alcoólicas", false),
+                new Resposta("faringe", false)
+            ], this.jogo), 'usada': true
+        });
+
+        this.perguntas.push({
+            'pergunta': new Pergunta("Auxilia nos processos digestivos e hidratação do corpo humano:", [
+                new Resposta("Mac Lanche Feliz", false),
+                new Resposta("cerveja", false),
+                new Resposta("água", true)
+            ], this.jogo), 'usada': true
+        });
+
+        this.perguntas.push({
+            'pergunta': new Pergunta("Ao tossir ou espirrar, devemos:", [
+                new Resposta("ficar à vontade", false),
+                new Resposta("tapar com o antebraço", true),
+                new Resposta("usar lenço de tecido", false)
+            ], this.jogo), 'usada': true
+        });
+
+        this.perguntas.push({
+            'pergunta': new Pergunta("Responsável por iniciar o processo sobre o alimento, facilitando o processo dos demais órgãos do sistema digestivo:", [
+                new Resposta("boca", true),
+                new Resposta("ânus", false),
+                new Resposta("pâncreas", false)
+            ], this.jogo), 'usada': true
+        });
+	};
 
 	this.inicializarPerguntas();
 	this.inicializarTabuleiro();
