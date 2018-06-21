@@ -157,6 +157,68 @@ function AreaJogadorPerguntas(texto, respostas, jogador) {
 	this.desenharBotaoConfirmacao = function (contexto, offsetY) {
 		contexto.fillStyle = this.selecionouResposta ? 'green' : 'gray';
 
+		if("Como é formado o sistema digestório:" === this.texto) {
+            var img = new Image;
+            img.src = './marker1.jpg';
+            contexto.drawImage(img, 0, 0, 300, 300);
+            contexto.drawImage(img, 0, 600, 300, 300);
+        } else if ("Formam o caminho por onde o alimento passa até chegar ao estômago:" === this.texto) {
+            var img = new Image;
+            img.src = './marker1.jpg';
+            contexto.drawImage(img, 0, 0, 300, 300);
+            contexto.drawImage(img, 0, 600, 300, 300);
+        } else if ("As glândulas anexas ao tubo digestório são:" === this.texto) {
+            var img = new Image;
+            img.src = './marker1.jpg';
+            contexto.drawImage(img, 0, 0, 300, 300);
+            contexto.drawImage(img, 0, 600, 300, 300);
+        } else if ("Qual a função dos movimentos peristálticos:" === this.texto) {
+            var img = new Image;
+            img.src = './marker1.jpg';
+            contexto.drawImage(img, 0, 0, 300, 300);
+            contexto.drawImage(img, 0, 600, 300, 300);
+        } else if ("Ele movimenta, amassa e mexe o alimento. O suco gástrico é produzido aí:" === this.texto) {
+            var img = new Image;
+            img.src = './marker1.jpg';
+            contexto.drawImage(img, 0, 0, 300, 300);
+            contexto.drawImage(img, 0, 600, 300, 300);
+        } else if ("Nele, o alimento já muito transformado, mistura-se com três líquidos e juntos transformam os nutrientes em alimentos:" === this.texto) {
+            var img = new Image;
+            img.src = './marker1.jpg';
+            contexto.drawImage(img, 0, 0, 300, 300);
+            contexto.drawImage(img, 0, 600, 300, 300);
+        } else if ("Tem a função de absorver a água, evitando que ela seja eliminada junto com as fezes:" === this.texto) {
+            var img = new Image;
+            img.src = './marker1.jpg';
+            contexto.drawImage(img, 0, 0, 300, 300);
+            contexto.drawImage(img, 0, 600, 300, 300);
+        } else if ("Maior glândula do nosso corpo, que é a responsável pela produção da bile:" === this.texto) {
+            var img = new Image;
+            img.src = './marker1.jpg';
+            contexto.drawImage(img, 0, 0, 300, 300);
+            contexto.drawImage(img, 0, 600, 300, 300);
+        } else if ("Como é formado o sistema respiratório:" === this.texto) {
+            var img = new Image;
+            img.src = './marker1.jpg';
+            contexto.drawImage(img, 0, 0, 300, 300);
+            contexto.drawImage(img, 0, 600, 300, 300);
+        } else if ("Sua principal função é fornecer ao nosso sangue oxigênio:" === this.texto) {
+            var img = new Image;
+            img.src = './marker1.jpg';
+            contexto.drawImage(img, 0, 0, 300, 300);
+            contexto.drawImage(img, 0, 600, 300, 300);
+        } else if ("O processo de troca gasosa no pulmão — oxigênio por dióxido de carbono:" === this.texto) {
+            var img = new Image;
+            img.src = './marker1.jpg';
+            contexto.drawImage(img, 0, 0, 300, 300);
+            contexto.drawImage(img, 0, 600, 300, 300);
+        } else if ("A faringe é responsável por conduzir o ar e os alimentos; por isso, pertence a dois sistemas, o digestório e o respiratório. Antes que o ar chegue até a laringe, ele precisa passar na faringe. Existe uma estrutura cartilaginosa que separa para onde vai o alimento e o ar, qual:" === this.texto) {
+            var img = new Image;
+            img.src = './marker1.jpg';
+            contexto.drawImage(img, 0, 0, 300, 300);
+            contexto.drawImage(img, 0, 600, 300, 300);
+        }
+
 		contexto.strokeRect(
 			this.determinarX(configuracoes.LARGURA_TELA_PERGUNTAS - 105),
 			offsetY,
