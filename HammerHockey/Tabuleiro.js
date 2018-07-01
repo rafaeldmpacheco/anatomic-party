@@ -125,7 +125,7 @@ function Tabuleiro(jogo) {
 	this.gerarComPergunta = function (k, j, i) {
 		var pergunta = null;
 		do {
-			pergunta = this.perguntas[Math.floor((Math.random() * 21))];
+			pergunta = this.perguntas[Math.floor((Math.random() * 25))];
 		} while (pergunta.usada);
 
 		pergunta.usada = true;
@@ -366,7 +366,7 @@ function Tabuleiro(jogo) {
                 new Resposta("uso de cigarro", true),
                 new Resposta("uso de bebidas alcoólicas", false),
                 new Resposta("faringe", false)
-            ], this.jogo), 'usada': true
+            ], this.jogo), 'usada': false
         });
 
         this.perguntas.push({
@@ -374,7 +374,7 @@ function Tabuleiro(jogo) {
                 new Resposta("Mac Lanche Feliz", false),
                 new Resposta("cerveja", false),
                 new Resposta("água", true)
-            ], this.jogo), 'usada': true
+            ], this.jogo), 'usada': false
         });
 
         this.perguntas.push({
@@ -382,7 +382,7 @@ function Tabuleiro(jogo) {
                 new Resposta("ficar à vontade", false),
                 new Resposta("tapar com o antebraço", true),
                 new Resposta("usar lenço de tecido", false)
-            ], this.jogo), 'usada': true
+            ], this.jogo), 'usada': false
         });
 
         this.perguntas.push({
@@ -390,7 +390,7 @@ function Tabuleiro(jogo) {
                 new Resposta("boca", true),
                 new Resposta("ânus", false),
                 new Resposta("pâncreas", false)
-            ], this.jogo), 'usada': true
+            ], this.jogo), 'usada': false
         });
 	};
 

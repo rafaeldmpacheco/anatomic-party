@@ -13,9 +13,9 @@ function TelaInicial(contexto)
 		this.contexto.font = '75px fonteTitulo';
 		this.contexto.fillStyle = 'red';
 		this.contexto.textBaseline = 'top';
-		this.contexto.fillText('Anatomic Party', 555, 75);
+		this.contexto.fillText('Tabuleiro Respi-tório', 555, 75, 700);
 		this.contexto.lineWidth = 5;
-		this.contexto.strokeText('Anatomic Party', 555, 75);
+		this.contexto.strokeText('Tabuleiro Respi-tório', 555, 75, 700);
         
         var imagem = document.getElementById('targetu');
         contexto.drawImage(imagem, 0, 0, imagem.width, imagem.height,
