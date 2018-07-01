@@ -154,7 +154,7 @@ function Tabuleiro(jogo) {
 				for (var k = 0; k < this.matriz[j].length; k++) {
 					if (this.matriz[j][k] == i) {
 						if (contador == 2) {
-							this.matriz[j][k] = this.gerarComEvento(k, j, i, posicaoFinal);
+							this.matriz[j][k] = this.gerarComPergunta(k, j, i);
 						}
 						else {
 							this.matriz[j][k] = new Celula(k, j, i);
