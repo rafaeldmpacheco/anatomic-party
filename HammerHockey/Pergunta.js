@@ -527,7 +527,7 @@ function Pergunta(texto, respostas, jogo) {
 				jogadorQueAcertou = this.areas[i].verificarClique(eventoClique, jogo);
 				if (jogadorQueAcertou) {
 					this.jogadorQueAcertou = jogadorQueAcertou;
-                    var alguemNaoRespondeu = this.areas.find(object => object.selecionouResposta == false);
+                    var alguemNaoRespondeu = this.findSelecionouResposta();
                     if(!alguemNaoRespondeu) {
                         this.tempoFinal = new Date().getTime();
                         this.terminou = true;
@@ -540,6 +540,15 @@ function Pergunta(texto, respostas, jogo) {
 			}
 		}
 	}
+
+    this.findSelecionouResposta = function () {
+        for (var i = 0; i < this.areas.length; i++) {
+            if (this.areas[i].selecionouResposta == false) {
+                return true;
+            }
+            return false
+        }
+    }
 
 	this.verificarTodasAreasRespondidas = function () {
 		for (var i = 0; i < this.areas.length; i++) {
