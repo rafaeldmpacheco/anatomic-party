@@ -160,86 +160,119 @@ function AreaJogadorPerguntas(texto, respostas, jogador) {
 
 		if("Como é formado o sistema digestório:" === this.texto) {
             var img = new Image;
+            var img2 = new Image;
             img.src = './pergunta1.jpg';
-            contexto.drawImage(img, 550, 0, 150, 150);
-            contexto.drawImage(img, 1250, 0, 150, 150);
+            img2.src = './pergunta1 - Copia.jpg';
+            contexto.drawImage(img2, 550, 0, 150, 150);
+            contexto.drawImage(img2, 1250, 0, 150, 150);
             contexto.drawImage(img, 1250, 600, 150, 150);
             contexto.drawImage(img, 550, 600, 150, 150);
         } else if ("Formam o caminho por onde o alimento passa até chegar ao estômago:" === this.texto) {
             var img = new Image;
+            var img2 = new Image;
             img.src = './pergunta4.jpg';
-            contexto.drawImage(img, 550, 0, 150, 150);
-            contexto.drawImage(img, 1250, 0, 150, 150);
+            img2.src = './pergunta4 - Copia.jpg';
+            contexto.drawImage(img2, 550, 0, 150, 150);
+            contexto.drawImage(img2, 1250, 0, 150, 150);
             contexto.drawImage(img, 1250, 600, 150, 150);
             contexto.drawImage(img, 550, 600, 150, 150);
         } else if ("As glândulas anexas ao tubo digestório são:" === this.texto) {
             var img = new Image;
+            var img2 = new Image;
             img.src = './pergunta5.jpg';
-            contexto.drawImage(img, 550, 0, 150, 150);
-            contexto.drawImage(img, 1250, 0, 150, 150);
+            img2.src = './pergunta5 - Copia.jpg';
+            contexto.drawImage(img2, 550, 0, 150, 150);
+            contexto.drawImage(img2, 1250, 0, 150, 150);
             contexto.drawImage(img, 1250, 600, 150, 150);
             contexto.drawImage(img, 550, 600, 150, 150);
         } else if ("Qual a função dos movimentos peristálticos:" === this.texto) {
             var img = new Image;
+            var img2 = new Image;
             img.src = './pergunta6.jpg';
-            contexto.drawImage(img, 550, 0, 150, 150);
-            contexto.drawImage(img, 1250, 0, 150, 150);
+            img2.src = './pergunta6 - Copia.jpg';
+
+            contexto.drawImage(img2, 550, 0, 150, 150);
+            contexto.drawImage(img2, 1250, 0, 150, 150);
             contexto.drawImage(img, 1250, 600, 150, 150);
             contexto.drawImage(img, 550, 600, 150, 150);
         } else if ("Ele movimenta, amassa e mexe o alimento. O suco gástrico é produzido aí:" === this.texto) {
             var img = new Image;
+            var img2 = new Image;
             img.src = './pergunta7.jpg';
-            contexto.drawImage(img, 550, 0, 150, 150);
-            contexto.drawImage(img, 1250, 0, 150, 150);
+            img2.src = './pergunta7 - Copia.jpg';
+
+            contexto.drawImage(img2, 550, 0, 150, 150);
+            contexto.drawImage(img2, 1250, 0, 150, 150);
             contexto.drawImage(img, 1250, 600, 150, 150);
             contexto.drawImage(img, 550, 600, 150, 150);
         } else if ("Nele, o alimento já muito transformado, mistura-se com três líquidos e juntos transformam os nutrientes em alimentos:" === this.texto) {
             var img = new Image;
+            var img2 = new Image;
             img.src = './pergunta8.jpg';
-            contexto.drawImage(img, 550, 0, 150, 150);
-            contexto.drawImage(img, 1250, 0, 150, 150);
+            img2.src = './pergunta8 - Copia.jpg';
+
+            contexto.drawImage(img2, 550, 0, 150, 150);
+            contexto.drawImage(img2, 1250, 0, 150, 150);
             contexto.drawImage(img, 1250, 600, 150, 150);
             contexto.drawImage(img, 550, 600, 150, 150);
         } else if ("Tem a função de absorver a água, evitando que ela seja eliminada junto com as fezes:" === this.texto) {
             var img = new Image;
+            var img2 = new Image;
             img.src = './pergunta9.jpg';
-            contexto.drawImage(img, 550, 0, 150, 150);
-            contexto.drawImage(img, 1250, 0, 150, 150);
+            img2.src = './pergunta9 - Copia.jpg';
+
+            contexto.drawImage(img2, 550, 0, 150, 150);
+            contexto.drawImage(img2, 1250, 0, 150, 150);
             contexto.drawImage(img, 1250, 600, 150, 150);
             contexto.drawImage(img, 550, 600, 150, 150);
         } else if ("Maior glândula do nosso corpo, que é a responsável pela produção da bile:" === this.texto) {
             var img = new Image;
+            var img2 = new Image;
             img.src = './pergunta10.jpg';
-            contexto.drawImage(img, 550, 0, 150, 150);
-            contexto.drawImage(img, 1250, 0, 150, 150);
+            img2.src = './pergunta10 - Copia.jpg';
+
+            contexto.drawImage(img2, 550, 0, 150, 150);
+            contexto.drawImage(img2, 1250, 0, 150, 150);
             contexto.drawImage(img, 1250, 600, 150, 150);
             contexto.drawImage(img, 550, 600, 150, 150);
         } else if ("Como é formado o sistema respiratório:" === this.texto) {
             var img = new Image;
+            var img2 = new Image;
             img.src = './pergunta11.jpg';
-            contexto.drawImage(img, 550, 0, 150, 150);
-            contexto.drawImage(img, 1250, 0, 150, 150);
+            img2.src = './pergunta11 - Copia.jpg';
+
+            contexto.drawImage(img2, 550, 0, 150, 150);
+            contexto.drawImage(img2, 1250, 0, 150, 150);
             contexto.drawImage(img, 1250, 600, 150, 150);
             contexto.drawImage(img, 550, 600, 150, 150);
         } else if ("Sua principal função é fornecer ao nosso sangue oxigênio:" === this.texto) {
             var img = new Image;
+            var img2 = new Image;
             img.src = './pergunta16.jpg';
-            contexto.drawImage(img, 550, 0, 150, 150);
-            contexto.drawImage(img, 1250, 0, 150, 150);
+            img2.src = './pergunta16 - Copia.jpg';
+
+            contexto.drawImage(img2, 550, 0, 150, 150);
+            contexto.drawImage(img2, 1250, 0, 150, 150);
             contexto.drawImage(img, 1250, 600, 150, 150);
             contexto.drawImage(img, 550, 600, 150, 150);
         } else if ("O processo de troca gasosa no pulmão — oxigênio por dióxido de carbono:" === this.texto) {
             var img = new Image;
+            var img2 = new Image;
             img.src = './pergunta17.jpg';
-            contexto.drawImage(img, 550, 0, 150, 150);
-            contexto.drawImage(img, 1250, 0, 150, 150);
+            img2.src = './pergunta17 - Copia.jpg';
+
+            contexto.drawImage(img2, 550, 0, 150, 150);
+            contexto.drawImage(img2, 1250, 0, 150, 150);
             contexto.drawImage(img, 1250, 600, 150, 150);
             contexto.drawImage(img, 550, 600, 150, 150);
         } else if ("A faringe é responsável por conduzir o ar e os alimentos; por isso, pertence a dois sistemas, o digestório e o respiratório. Antes que o ar chegue até a laringe, ele precisa passar na faringe. Existe uma estrutura cartilaginosa que separa para onde vai o alimento e o ar, qual:" === this.texto) {
             var img = new Image;
+            var img2 = new Image;
             img.src = './pergunta19.jpg';
-            contexto.drawImage(img, 550, 0, 150, 150);
-            contexto.drawImage(img, 1250, 0, 150, 150);
+            img2.src = './pergunta19 - Copia.jpg';
+
+            contexto.drawImage(img2, 550, 0, 150, 150);
+            contexto.drawImage(img2, 1250, 0, 150, 150);
             contexto.drawImage(img, 1250, 600, 150, 150);
             contexto.drawImage(img, 550, 600, 150, 150);
         }
@@ -527,7 +560,7 @@ function Pergunta(texto, respostas, jogo) {
 				jogadorQueAcertou = this.areas[i].verificarClique(eventoClique, jogo);
 				if (jogadorQueAcertou) {
 					this.jogadorQueAcertou = jogadorQueAcertou;
-                    var alguemNaoRespondeu = this.findSelecionouResposta();
+                    var alguemNaoRespondeu = this.areas.find(object => object.terminou == false);
                     if(!alguemNaoRespondeu) {
                         this.tempoFinal = new Date().getTime();
                         this.terminou = true;
@@ -540,15 +573,6 @@ function Pergunta(texto, respostas, jogo) {
 			}
 		}
 	}
-
-    this.findSelecionouResposta = function () {
-        for (var i = 0; i < this.areas.length; i++) {
-            if (this.areas[i].selecionouResposta == false) {
-                return true;
-            }
-            return false
-        }
-    }
 
 	this.verificarTodasAreasRespondidas = function () {
 		for (var i = 0; i < this.areas.length; i++) {
