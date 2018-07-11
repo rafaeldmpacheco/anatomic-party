@@ -1,0 +1,7 @@
+Requisitos necessários:
+
+- Utilizar preferencialmente uma mesa multi-touch para rodar o tabuleiro.
+- Rodar o arquivo 'Principal.html' no navegador Chrome na mesa.
+- Instalar o aplicativo 'Tabuleiro respi-torio_final.apk' em um dispositivo Android.
+
+- E seguir com o manual de utilização.
